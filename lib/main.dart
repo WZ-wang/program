@@ -9,6 +9,9 @@ import './widget/ColumnWidget.dart';
 import './widget/RowWidget.dart';
 import './widget/PaddingWidget.dart';
 import './widget/BottomWidget.dart';
+import './jsondata/DioWidget.dart';
+import './jsondata/TabbarWidget.dart';
+import './jsondata/BodyTabbarWidget.dart';
 
 void main() => runApp(MyApp());
 
@@ -23,7 +26,7 @@ class MyApp extends StatelessWidget {
       // home: ImageWidget(),
       // home: Scaffold(appBar: AppBar(title: Text("flutter widget"),),
       // body: PaddingWidget(),
-      home: BottomWidget(),
+      home: BodyTabbarWidget(),
       // ),
     );
   }

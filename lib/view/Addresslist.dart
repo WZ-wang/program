@@ -11,6 +11,11 @@ class _AddresslistState extends State<Addresslist> {
       appBar: AppBar(
         title: Text("地址列表"),
         centerTitle: true,
+        leading: IconButton(onPressed: (){},
+        icon: Icon(Icons.menu),),
+        actions: <Widget>[
+          IconButton(icon: Icon(Icons.search),onPressed: (){},)
+        ],
         
       ),
       body: ListView(
