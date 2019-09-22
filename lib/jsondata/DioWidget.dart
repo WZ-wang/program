@@ -9,6 +9,7 @@ class DioWidget extends StatefulWidget {
 
 class _DioWidgetState extends State<DioWidget> {
   List _list = [];
+  
   dio1() async {
     Response response = await Dio().get(
         "http://m.maoyan.com/ajax/movieOnInfoList?token=");

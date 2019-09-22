@@ -25,6 +25,7 @@ class _BodyTabbarWidgetState extends State<BodyTabbarWidget> {
                       labelColor: Colors.blue,
                       isScrollable: true,
                       indicatorSize: TabBarIndicatorSize.label,
+                      labelPadding: EdgeInsets.fromLTRB(40,0,40,0),
                       tabs: <Widget>[
                         Tab(
                           text: "首页",
